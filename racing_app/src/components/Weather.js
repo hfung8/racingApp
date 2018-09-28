@@ -6,7 +6,7 @@ class Weather extends Component{
     render (){
     return (
         <div>
-        <WeatherMessage />;     
+        <WeatherMessage />   
         </div>
     )
     }
