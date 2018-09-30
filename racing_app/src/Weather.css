@@ -6,6 +6,10 @@ h1{
 .input{
     display: block;
     margin: auto;
+    width: 50%;
+    text-align:center;
+    line-height: 40px;
+    font-size: 20px;
 }
 
 li{
@@ -34,4 +38,20 @@ li a:hover:not(.active){
 
 .active{
     background-color: green;
+}
+
+.button{
+    display: block;
+    margin: auto;
+}
+
+h5{
+    display:block;
+    margin:auto;
+    text-align:center;
+}
+
+.currentWeather{
+    width:25%;
+    text-align:center;
 }

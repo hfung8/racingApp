@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Weather from './components/Weather';
+import CurrentWeather from './components/CurrentWeather';
 // import WeatherForm from './components/WeatherForm';
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
     return (
       <div>
         <Weather />
-        {/* <WeatherForm />; */}
+        <CurrentWeather />
       </div>
     );
   }
